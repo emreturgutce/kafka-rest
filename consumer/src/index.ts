@@ -51,4 +51,4 @@ async function run() {
   }
 }
 
-setTimeout(run, 30000);
+setTimeout(run, 10000);
