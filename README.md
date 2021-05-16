@@ -20,3 +20,7 @@ docker-compose up
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"message":"hello world"}' http://localhost:8080/users
 ```
+
+```{r df-drop-ok, class.source="bg-success"}
+Message received: {"message": "hello world"}
+```
