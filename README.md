@@ -4,20 +4,20 @@ This is a basic kafka producer/consumer example built with Nodejs.
 
 ### Setup & Installation
 
-```bash
+```sh
 git clone https://github.com/emreturgutce/kafka-rest.git
 ```
 
-```bash
+```sh
 cd kafka-rest
 ```
 
-```bash
+```sh
 docker-compose up
 ```
 
 ### Example Curl Request
-```bash
+```sh
 curl -X POST -H "Content-Type: application/json" -d '{"message":"hello world"}' http://localhost:8080/users
 ```
 
