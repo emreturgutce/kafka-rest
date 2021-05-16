@@ -22,6 +22,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"message":"hello world"}' 
 ```
 
 #### Output
-```sh
-*Message received: {"message": "hello world"}*
-```
+<pre>
+<i>Message received: {"message": "hello world"}</i>
+</pre>
